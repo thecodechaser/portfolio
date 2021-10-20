@@ -1,7 +1,6 @@
 /* stylesheet */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-
 .header-nav {
   display: flex;
 }
@@ -52,7 +51,7 @@ a:hover {
   background-image: url("../images/headline-bg.png");
   background-repeat: no-repeat;
   position: absolute;
-  background-size: cover; 
+  background-size: cover;
   padding-left: 20px;
   padding-top: 40px;
 }
