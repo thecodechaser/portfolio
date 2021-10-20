@@ -1,22 +1,22 @@
 /* stylesheet */
 
 
-.header-nav{
+.header-nav {
   margin-left: 150px;
   display: flex;
 }
 
-.logo-top{
+.logo-top {
   width: 200px;
   height: 50px;
 }
 
-.nav{
+.nav {
   padding-left: 550px;
   padding-top: 10px;
 }
 
-.nav-menu{
+.nav-menu {
   width: 63px;
   height: 20px;
   position: static;
@@ -32,6 +32,40 @@
   padding-left: 20px;
 }
 
-a:hover{
+a:hover {
     color: blue;
+}
+
+.headline {
+  background-image: url("../images/headline-bg.png");
+  background-repeat: no-repeat;
+  position: absolute; 
+  background-size: 1350px;
+  width: 1250px;
+  height: 600px;
+  margin-left: 30px;
+  margin-left: 30px;
+  margin-top: 40px;
+  
+}
+
+.main-heading {
+  padding-left: 220px;
+  padding-top: 130px;
+  font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 60px;
+  
+}
+
+.details {
+  padding-left: 220px;
+  color: #344563;
+  font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 28px;
 }
