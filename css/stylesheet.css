@@ -4,6 +4,7 @@
 .header-nav {
   margin-left: 150px;
   display: flex;
+  width: 100%;
 }
 
 .logo-top {
@@ -23,7 +24,7 @@
   font-family: Poppins;
   font-style: normal;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 18px;
   line-height: 20px;
   align-items: center;
   text-align: center;
@@ -33,16 +34,16 @@
 }
 
 a:hover {
-    color: blue;
+  color: blue;
 }
 
 .headline {
   background-image: url("../images/headline-bg.png");
   background-repeat: no-repeat;
   position: absolute; 
-  background-size: 1350px;
-  width: 1250px;
-  height: 600px;
+  background-size: 1250px 650px ;
+  width: 100%;
+  height: 700px;
   margin-left: 30px;
   margin-left: 30px;
   margin-top: 40px;
@@ -51,12 +52,13 @@ a:hover {
 
 .main-heading {
   padding-left: 220px;
+  color: #091E42;
   padding-top: 130px;
   font-family: Poppins;
-font-style: normal;
-font-weight: bold;
-font-size: 48px;
-line-height: 60px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 60px;
   
 }
 
@@ -64,8 +66,23 @@ line-height: 60px;
   padding-left: 220px;
   color: #344563;
   font-family: Poppins;
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 28px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.social-link-heading {
+  color: #7F8CFF;
+  padding-left: 220px;
+  width: 100%;
+}
+
+.social-link-icons {
+  display: flex;
+  padding-left: 200px;
+}
+
+.social-links {
+  padding-left: 20px;
 }
