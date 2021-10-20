@@ -1,4 +1,5 @@
 /* stylesheet */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 .header-nav {
   margin-left: 150px;
@@ -56,7 +57,7 @@ a:hover {
   font-style: normal;
   font-weight: bold;
   font-size: 48px;
-  line-height: 60px; 
+  line-height: 60px;
 }
 
 .details {
