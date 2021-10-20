@@ -1,36 +1,47 @@
 /* stylesheet */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+
 .header-nav {
-  margin-left: 150px;
   display: flex;
-  width: 100%;
 }
 
 .logo-top {
-  width: 200px;
-  height: 50px;
-}
-
-.nav {
-  padding-left: 550px;
-  padding-top: 10px;
-}
-
-.nav-menu {
-  width: 63px;
-  height: 20px;
-  position: static;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 20px;
-  align-items: center;
-  text-align: center;
-  color: #344563;
-  text-decoration: none;
+  width: 150px;
+  height: 40px;
   padding-left: 20px;
+}
+
+.menu-button {
+  display: flex;
+  align-items: center;
+  width: 40px;
+  height: 30px;
+  cursor: pointer;
+  padding-left: 115px;
+}
+
+.menu-button-burger {
+  width: 30px;
+  height: 4px;
+  background: #6070ff;
+}
+
+.menu-button-burger::before,
+.menu-button-burger::after {
+  content: '';
+  position: absolute;
+  width: 30px;
+  height: 4px;
+  background: #6070ff;
+}
+
+.menu-button-burger::before {
+  transform: translateY(-8px);
+}
+
+.menu-button-burger::after {
+  transform: translateY(8px);
 }
 
 a:hover {
@@ -41,43 +52,45 @@ a:hover {
   background-image: url("../images/headline-bg.png");
   background-repeat: no-repeat;
   position: absolute;
-  background-size: 1250px 650px;
-  width: 100%;
-  height: 700px;
-  margin-left: 30px;
-  margin-top: 40px;
+  background-size: cover; 
+  padding-left: 20px;
+  padding-top: 40px;
 }
 
 .main-heading {
-  padding-left: 220px;
   color: #091e42;
-  padding-top: 130px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 48px;
-  line-height: 60px;
+  font-size: 40px;
+  line-height: 52px;
 }
 
 .details {
-  padding-left: 220px;
   color: #344563;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 20px;
-  line-height: 28px;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 .social-link-heading {
   color: #7f8cff;
-  padding-left: 220px;
-  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 .social-link-icons {
   display: flex;
-  padding-left: 200px;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
 }
 
 .social-links {
