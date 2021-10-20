@@ -1,2 +1,37 @@
 /* stylesheet */
 
+
+.header-nav{
+  margin-left: 150px;
+  display: flex;
+}
+
+.logo-top{
+  width: 200px;
+  height: 50px;
+}
+
+.nav{
+  padding-left: 550px;
+  padding-top: 10px;
+}
+
+.nav-menu{
+  width: 63px;
+  height: 20px;
+  position: static;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  align-items: center;
+  text-align: center;
+  color: #344563;
+  text-decoration: none;
+  padding-left: 20px;
+}
+
+a:hover{
+    color: blue;
+}
