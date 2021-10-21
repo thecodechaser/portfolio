@@ -71,7 +71,7 @@ a:hover {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 24px;
+  /* line-height: 24px; */
   Width: 320px;
 }
 
@@ -207,3 +207,29 @@ border-radius: 12px;
   flex-wrap: wrap;
   padding-top: 70px;
 }
+
+.about{
+  padding-left: 20px;
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.resume{
+    color: #396DF2;
+    font-family: Poppins;
+  font-style: normal;
+  text-align: center;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  text-decoration: none;
+  border: 1.5px solid #396DF2;
+  width: 160px;
+  height: 30px;
+  border-radius: 10px;
+  margin-top: 20px;
+  padding-top: 6px;
+  
+}
+
