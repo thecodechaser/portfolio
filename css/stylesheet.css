@@ -128,11 +128,10 @@ ul {
 }
 
 .project.name {
-   color: #172b4d;
-   font-family: 'Poppins', sans-serif;
-   font-weight: bold;
-   font-size: 20px;
-   line-height: 44px;
+  color: #172b4d;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  line-height: 44px;
 }
 
 .devs {
