@@ -5,6 +5,8 @@
   display: flex;
 }
 
+
+
 .logo-top {
   width: 150px;
   height: 40px;
@@ -50,8 +52,6 @@ a:hover {
 .headline {
   background-image: url("../images/headline-bg.png");
   background-repeat: no-repeat;
-  position: absolute;
-  background-size: cover;
   padding-left: 20px;
   padding-top: 40px;
 }
@@ -72,6 +72,7 @@ a:hover {
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
+  Width: 320px;
 }
 
 .social-link-heading {
@@ -85,6 +86,7 @@ a:hover {
 
 .social-link-icons {
   display: flex;
+  align-items: baseline;
 }
 
 ul {
@@ -95,4 +97,113 @@ ul {
 
 .social-links {
   padding-left: 20px;
+}
+
+.projects{
+  display: grid;
+  padding-left: 20px;
+  padding-top: 50px;
+}
+
+.project.one{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+}
+
+.snapshoot.body1{
+  Width: 295px;
+ Height:  220px;
+ background-color: #eab676;
+}
+
+.snapshoot.body2{
+  Width: 295px;
+ Height:  220px;
+ background-color: #e28743;
+} 
+.project.snapshoot{
+  Width: 250px;
+ Height:  160px;
+  padding-left: 22px;
+  padding-top: 33px;
+}
+
+.project.name{
+ color: #172B4D;
+font-family: 'Poppins', sans-serif;
+font-weight: bold;
+font-size: 20px;
+line-height: 44px;
+}
+
+.devs{
+  display: flex;
+  align-items: baseline;
+}
+
+.dev.name{
+  color: #344563;
+  font-family: 'Poppins', sans-serif;
+font-size: 13px;
+line-height: 30px;
+}
+
+.dev.info{
+  color: #7A869A;
+  font-family: 'Poppins', sans-serif;
+font-weight: 600;
+font-size: 13px;
+line-height: 16px;
+padding-left: 20px;
+}
+
+.project.info{
+ color: #344563;
+ font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 24px;
+Width: 295px;
+}
+
+.project-langs{
+ display: flex;
+ align-items: baseline;
+ gap: 20px
+}
+
+.lang.name{
+color: #6070FF;
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 16px;
+padding-left: 10px;
+}
+
+.project-link{
+  color: #396DF2;
+  font-family: Poppins;
+font-style: normal;
+text-align: center;
+font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+text-decoration: none;
+border: 1.5px solid #396DF2;
+width: 130px;
+padding-top: 10px;
+height: 40px;
+border-radius: 12px;
+}
+
+.project.two{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-top: 70px;
 }
