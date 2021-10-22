@@ -211,24 +211,45 @@ ul {
   flex-direction: column;
 }
 
-.resume {
+.resume-button {
+  border: 1.5px solid #396df2;
   color: #396df2;
   font-family: 'Poppins', sans-serif;
+  font-size: 19px;
   text-align: center;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 24px;
-  text-decoration: none;
+  margin-top: 15px;
+  cursor: pointer;
+  border-radius: 12px;
+  width: 180px;
+  height: 50px;
 }
 
-.resume-container {
-  margin-top: 25px;
+.project-button {
   border: 1.5px solid #396df2;
-  width: 160px;
-  height: 35px;
-  border-radius: 10px;
-  padding-top: 7px;
-  padding-left: 14px;
+  color: #396df2;
+  font-family: 'Poppins', sans-serif;
+  font-size: 19px;
+  text-align: center;
+  margin-top: 15px;
+  cursor: pointer;
+  border-radius: 12px;
+  width: 140px;
+  height: 50px;
+}
+
+button:hover {
+  background-color: #6070ff;
+  color: white;
+}
+
+button:visited {
+  background-color: #2230d2;
+  color: white;
+}
+
+button:disabled {
+  background-color: #e5e5e5;
+  color: #5e6c84;
 }
 
 .list-items {
@@ -251,8 +272,4 @@ ul {
 .right {
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
-}
-
-.list-errow {
-  padding-left: 20px;
 }
