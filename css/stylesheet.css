@@ -311,10 +311,39 @@ button:disabled {
   text-align: center;
 }
 
-.contact-form input, textarea {
+.contact-form input,
+textarea {
   width: 285px;
   margin-top: 18px;
   padding: 15px 16px;
   border-radius: 8px;
   border: none;
+}
+
+.contact-form .contact-button {
+  border: 1.5px solid #396df2;
+  color: #396df2;
+  font-family: "Poppins", sans-serif;
+  font-size: 19px;
+  text-align: center;
+  margin-top: 15px;
+  cursor: pointer;
+  border-radius: 12px;
+  width: 180px;
+  height: 50px;
+}
+
+.contact-form .contact-button:hover {
+  background-color: #6070ff;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.bottom-line {
+  width: 134px;
+  height: 5px;
+  bottom: 8px;
+  background: #0d151e;
+  border-radius: 10px;
+  margin: 0 auto;
 }
