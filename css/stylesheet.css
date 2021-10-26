@@ -1,5 +1,9 @@
 /* stylesheet */
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
 
 .header-nav {
   display: flex;
@@ -28,7 +32,7 @@
 
 .menu-button-burger::before,
 .menu-button-burger::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 30px;
   height: 4px;
@@ -56,7 +60,6 @@ a:hover {
 
 .main-heading {
   color: #091e42;
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -65,7 +68,6 @@ a:hover {
 
 .details {
   color: #344563;
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -74,7 +76,6 @@ a:hover {
 
 .social-link-heading {
   color: #7f8cff;
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -129,7 +130,6 @@ ul {
 
 .project.name {
   color: #172b4d;
-  font-family: 'Poppins', sans-serif;
   font-size: 20px;
   line-height: 44px;
 }
@@ -141,14 +141,12 @@ ul {
 
 .dev.name {
   color: #344563;
-  font-family: 'Poppins', sans-serif;
   font-size: 13px;
   line-height: 30px;
 }
 
 .dev.info {
   color: #7a869a;
-  font-family: 'Poppins', sans-serif;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
@@ -157,7 +155,6 @@ ul {
 
 .project.info {
   color: #344563;
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
@@ -173,7 +170,6 @@ ul {
 
 .lang.name {
   color: #6070ff;
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -183,7 +179,6 @@ ul {
 
 .project-link {
   color: #396df2;
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   text-align: center;
   font-weight: 500;
@@ -214,7 +209,6 @@ ul {
 .resume-button {
   border: 1.5px solid #396df2;
   color: #396df2;
-  font-family: 'Poppins', sans-serif;
   font-size: 19px;
   text-align: center;
   margin-top: 15px;
@@ -227,7 +221,6 @@ ul {
 .project-button {
   border: 1.5px solid #396df2;
   color: #396df2;
-  font-family: 'Poppins', sans-serif;
   font-size: 19px;
   text-align: center;
   margin-top: 15px;
@@ -255,7 +248,6 @@ button:disabled {
 .list-items {
   color: #000;
   padding-top: 40px;
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -272,4 +264,87 @@ button:disabled {
 .right {
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
+}
+
+/* Contact Form Styles */
+
+/* Amadu Kamara */
+
+.contact-form {
+  width: 320px;
+  margin-top: 12px;
+  border-radius: 50px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  padding: 80px 24px;
+  align-items: center;
+  background-color: #6070ff;
+  background-image: url("../images/footer-bg-img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.contact-form-info h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: #fff;
+}
+
+.contact-form-info p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ebebff;
+  text-align: center;
+}
+
+.contact-form input,
+textarea {
+  width: 285px;
+  margin-top: 18px;
+  padding: 15px 16px;
+  border-radius: 8px;
+  border: none;
+}
+
+.contact-form .contact-button {
+  border: 1.5px solid #396df2;
+  color: #396df2;
+  font-size: 19px;
+  text-align: center;
+  margin-top: 15px;
+  cursor: pointer;
+  border-radius: 12px;
+  width: 180px;
+  height: 50px;
+}
+
+.contact-form .contact-button:hover {
+  background-color: #6070ff;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.contact-form .contact-button:visited {
+  background-color: #2230d2;
+  color: white;
+}
+
+.contact-form .contact-button:disabled {
+  background-color: #e5e5e5;
+  color: #5e6c84;
+}
+
+.bottom-line {
+  width: 134px;
+  height: 5px;
+  bottom: 8px;
+  background: #0d151e;
+  border-radius: 10px;
+  margin-top: 50px;
 }
