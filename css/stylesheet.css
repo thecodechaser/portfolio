@@ -268,6 +268,7 @@ button:disabled {
 
 /* Contact Form Styles */
 /* Amadu Kamara */
+
 .contact-form {
   width: 320px;
   margin-top: 12px;
@@ -342,13 +343,6 @@ textarea {
   width: 134px;
   height: 5px;
   bottom: 8px;
-  background: #0d151e;
-  border-radius: 10px;
-  margin: 0 auto;
-}
-
-.bottom-line {
-  width: 134px;
   background: #0d151e;
   border-radius: 10px;
   margin-top: 50px;
