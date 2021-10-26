@@ -284,7 +284,7 @@ button:disabled {
   margin-top: 12px;
   border-radius: 50px 0 0 0;
   display: flex;
-  padding: 114px 24px;
+  padding: 80px 24px;
   align-items: center;
   background-color: #6070ff;
   background-image: url("../images/footer-bg-img.png");
@@ -346,4 +346,12 @@ textarea {
   background: #0d151e;
   border-radius: 10px;
   margin: 0 auto;
+}
+
+.bottom-line {
+  width: 134px;
+  /* height: 5px; */
+  background: #0d151e;
+  border-radius: 10px;
+  margin-top: 50px;
 }
