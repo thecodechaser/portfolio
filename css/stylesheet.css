@@ -310,3 +310,11 @@ button:disabled {
   color: #ebebff;
   text-align: center;
 }
+
+.contact-form input, textarea {
+  width: 285px;
+  margin-top: 18px;
+  padding: 15px 16px;
+  border-radius: 8px;
+  border: none;
+}
