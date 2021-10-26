@@ -160,8 +160,8 @@
         <li class="list-items">Skills<i class="arrow right"></i></li>
       </ul>
     </main>
-    <section class="contact-form">
-      <footer>
+    <footer>
+      <section class="contact-form">
         <div class="contact-form-info">
           <h2>Contact me</h2>
           <p>
@@ -171,41 +171,26 @@
           </p>
         </div>
         <form action="https://formspree.io/f/mayazvnq" method="post">
-          <ul>
-            <li>
-              <input
-                type="text"
-                name="user_name"
-                required
-                maxlength="30"
-                placeholder="Name"
-              />
-            </li>
-            <li>
-              <input
-                type="email"
-                name="user_email"
-                required
-                placeholder="Email"
-              />
-            </li>
-            <li>
-              <textarea
-                cols="30"
-                rows="10"
-                name="user_msg"
-                required
-                maxlength="500"
-                placeholder="Write your message here"
-              ></textarea>
-            </li>
-            <li>
-              <button class="contact-button" type="submit">Get In Touch</button>
-            </li>
-          </ul>
+          <input
+            type="text"
+            name="user_name"
+            required
+            maxlength="30"
+            placeholder="Name"
+          />
+          <input type="email" name="user_email" required placeholder="Email" />
+          <textarea
+            cols="30"
+            rows="10"
+            name="user_msg"
+            required
+            maxlength="500"
+            placeholder="Write your message here"
+          ></textarea>
+          <button class="contact-button" type="submit">Get In Touch</button>
         </form>
         <div class="bottom-line"></div>
-      </footer>
-    </section>
+      </section>
+    </footer>
   </body>
 </html>
