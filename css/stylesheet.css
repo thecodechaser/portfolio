@@ -273,3 +273,7 @@ button:disabled {
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
 }
+
+.contact-form-info {
+  width: 320px;
+}
