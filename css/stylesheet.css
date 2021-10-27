@@ -52,7 +52,7 @@ a:hover {
 }
 
 .headline {
-  background-image: url("../images/headline-bg.png");
+  background-image: url("../images/header-bg-mobile.png");
   background-repeat: no-repeat;
   padding-left: 20px;
   padding-top: 40px;
@@ -100,13 +100,13 @@ ul {
 .projects {
   display: grid;
   padding-left: 20px;
-  padding-top: 50px;
 }
 
-.project.one {
+.project {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  padding-top: 20px;
 }
 
 .snapshoot.body1 {
@@ -131,7 +131,7 @@ ul {
 .project.name {
   color: #172b4d;
   font-size: 20px;
-  line-height: 44px;
+  margin-bottom: 0px;
 }
 
 .devs {
@@ -142,14 +142,12 @@ ul {
 .dev.name {
   color: #344563;
   font-size: 13px;
-  line-height: 30px;
 }
 
 .dev.info {
   color: #7a869a;
   font-weight: 600;
   font-size: 13px;
-  line-height: 16px;
   padding-left: 20px;
 }
 
@@ -158,8 +156,8 @@ ul {
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
-  line-height: 24px;
   width: 295px;
+  margin-top: 0px;
 }
 
 .project-langs {
@@ -173,7 +171,6 @@ ul {
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
-  line-height: 16px;
   padding-left: 10px;
 }
 
@@ -183,20 +180,12 @@ ul {
   text-align: center;
   font-weight: 500;
   font-size: 18px;
-  line-height: 24px;
   text-decoration: none;
   border: 1.5px solid #396df2;
   width: 130px;
   padding-top: 10px;
   height: 40px;
   border-radius: 12px;
-}
-
-.project.two {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  padding-top: 70px;
 }
 
 .about {
@@ -265,10 +254,6 @@ button:disabled {
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
 }
-
-/* Contact Form Styles */
-
-/* Amadu Kamara */
 
 .contact-form {
   width: 320px;
