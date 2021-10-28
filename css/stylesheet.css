@@ -7,7 +7,7 @@ body {
 }
 
 header {
-  position: fixed;
+  /* position: fixed; */
 }
 
 .header-nav {
@@ -117,7 +117,16 @@ ul {
 .project {
   display: flex;
   flex-direction: column;
-  background-color: #e5e5e5;
+  background: #fff;
+  margin: 44px 0;
+  box-sizing: border-box;
+  border-radius: 16px;
+}
+
+.project.one,
+.project.two,
+.project.three {
+  border: 1px solid #dfe1e6;
 }
 
 .snapshoot.body1 {
@@ -141,6 +150,11 @@ ul {
 .project.snapshoot {
   width: 250px;
   height: 160px;
+}
+
+.project.snapshoot.last {
+  width: 250px;
+  height: 210px;
 }
 
 .project.name {
@@ -183,6 +197,9 @@ ul {
 .lang.name {
   font-size: 15px;
   padding-left: 10px;
+  background-color: #ebebff;
+  text-align: center;
+  width: 80px;
 }
 
 .project-link {
@@ -360,16 +377,44 @@ textarea {
   margin-top: 50px;
 }
 
+@media (min-width: 340px) and (max-width: 759px) {
+  .header-nav {
+    width: 600px;
+  }
+
+  .menu-button {
+    padding-left: 350px;
+  }
+
+  .project.name,
+  .project.info {
+    width: 600px;
+  }
+
+  .snapshoot.body1,
+  .snapshoot.body2 {
+    width: 600px;
+  }
+
+  .details {
+    width: 600px;
+  }
+
+  .contact-form {
+    width: 600px;
+  }
+}
+
 /* Desktop Style */
 
-@media (min-width: 768px) {
+@media (min-width: 760px) {
   .header-nav {
     display: flex;
     justify-content: space-around;
   }
 
   .logo-top {
-    padding-left: 100px;
+    padding-left: 1px;
   }
 
   .menu-button-burger {
@@ -379,7 +424,6 @@ textarea {
   .nav-menu {
     display: flex;
     gap: 10px;
-    margin-left: 600px;
   }
 
   .menu-item {
@@ -416,14 +460,15 @@ textarea {
 
   .projects {
     grid-gap: 150px;
-    width: 190vh;
+    width: 1250px;
     padding-left: 50px;
+    width: 190vh;
   }
 
   .project {
     flex-direction: row;
     justify-content: center;
-    gap: 100px;
+    gap: 20px;
   }
 
   .snapshoot.body1,
@@ -431,6 +476,7 @@ textarea {
     width: 550px;
     height: 400px;
     background-color: white;
+    padding-top: 25px;
   }
 
   .project.snapshoot {
@@ -440,7 +486,17 @@ textarea {
     margin: 0;
   }
 
+  .project.snapshoot.last {
+    width: 550px;
+    height: 400px;
+    padding: 0;
+    margin: 0;
+  }
+
   .project-details {
+    width: 550px;
+    height: 400px;
+    padding-top: 25px;
     display: flex;
     flex-direction: column;
     align-items: baseline;
