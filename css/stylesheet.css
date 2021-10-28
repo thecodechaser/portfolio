@@ -140,7 +140,7 @@ ul {
 .project.name {
   color: #172b4d;
   font-size: 20px;
-  margin-bottom: 0px;
+  margin-bottom: 1px;
 }
 
 .devs {
@@ -374,7 +374,6 @@ textarea {
     margin: 130px 250px;
     display: flex;
     flex-direction: column;
-    justify-content: baseline;
   }
 
   .main-heading {
