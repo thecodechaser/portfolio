@@ -362,4 +362,27 @@ textarea {
     font-size: 15px;
     text-decoration: none;
   }
+
+  .headline {
+    background-image: url("../images/header-bg-pc.png");
+    background-repeat: no-repeat;
+    margin: 0 30px;
+    height: 110vh;
+  }
+
+  .headline-box {
+    margin: 130px 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+  }
+
+  .main-heading {
+    font-size: 48px;
+  }
+
+  .details {
+    font-size: 20px;
+    width: 100%;
+  }
 }
