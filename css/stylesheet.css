@@ -259,6 +259,7 @@ button:disabled {
   gap: 15px;
   margin-top: 20px;
 }
+
 .lang-name-tech {
   font-weight: 500;
   font-size: 15px;
@@ -393,7 +394,6 @@ textarea {
     background-repeat: no-repeat;
     margin: 0 30px;
     height: 110vh;
-    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     width: 190vh;
@@ -486,7 +486,6 @@ textarea {
 
   .lang-details {
     display: flex;
-    justify-content: baseline;
     gap: 70px;
   }
 
@@ -494,6 +493,7 @@ textarea {
     width: 55px;
     height: 55px;
   }
+
   .lang-container {
     display: flex;
     flex-direction: column;
