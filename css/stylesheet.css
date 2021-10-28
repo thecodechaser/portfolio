@@ -385,4 +385,62 @@ textarea {
     font-size: 20px;
     width: 100%;
   }
+
+  .projects {
+    grid-gap: 100px;
+  }
+
+  .project {
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+  }
+
+  .snapshoot.body1,
+  .snapshoot.body2 {
+    width: 550px;
+    height: 400px;
+    background-color: white;
+  }
+
+  .project.snapshoot {
+    width: 550px;
+    height: 400px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .project-details {
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+  }
+
+  .snapshoot.body2.bodyOrder {
+    order: 2;
+  }
+
+  .project-details.detailOrder {
+    order: 1;
+  }
+
+  .project.name {
+    font-weight: bold;
+    font-size: 40px;
+    color: #091e42;
+  }
+
+  .dev.name {
+    font-size: 18px;
+  }
+
+  .dev.info {
+    color: #6b778c;
+    font-size: 18px;
+  }
+
+  .project.info {
+    width: 550px;
+  }
 }
