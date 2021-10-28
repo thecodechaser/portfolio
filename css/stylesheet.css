@@ -387,7 +387,7 @@ textarea {
   }
 
   .projects {
-    grid-gap: 100px;
+    grid-gap: 150px;
   }
 
   .project {
@@ -454,5 +454,41 @@ textarea {
     width: 40%;
   }
 
-  
+  .contact-form {
+    width: 190vh;
+    border-radius: 100px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 80px 50px 80px;
+    background-image: url("../images/footer-bg-pc.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .contact-form-info {
+    width: 45%;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-form input,
+  textarea {
+    width: 400px;
+    margin-top: 18px;
+    padding: 15px 16px;
+    border-radius: 8px;
+    border: none;
+  }
+
+  .contact-button {
+    margin-left: 130px;
+  }
+
+  .bottom-line {
+    display: none;
+  }
 }
