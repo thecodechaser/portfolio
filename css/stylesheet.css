@@ -443,4 +443,16 @@ textarea {
   .project.info {
     width: 550px;
   }
+
+  .about {
+    flex-direction: row;
+    margin: 100px 140px;
+    gap: 80px;
+  }
+
+  .about-section {
+    width: 40%;
+  }
+
+  
 }
