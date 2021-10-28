@@ -460,7 +460,6 @@ textarea {
 
   .projects {
     grid-gap: 150px;
-    width: 1250px;
     padding-left: 50px;
     width: 190vh;
   }
