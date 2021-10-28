@@ -3,10 +3,19 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+header {
+  position: fixed;
 }
 
 .header-nav {
   display: flex;
+}
+
+.nav-menu {
+  display: none;
 }
 
 .logo-top {
@@ -21,7 +30,7 @@ body {
   width: 40px;
   height: 30px;
   cursor: pointer;
-  padding-left: 115px;
+  padding-left: 160px;
 }
 
 .menu-button-burger {
@@ -142,6 +151,7 @@ ul {
 .dev.name {
   color: #344563;
   font-size: 13px;
+  font-weight: 500;
 }
 
 .dev.info {
@@ -152,24 +162,19 @@ ul {
 }
 
 .project.info {
+  font-size: 16px;
+  width: 320px;
   color: #344563;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 15px;
-  width: 295px;
-  margin-top: 0px;
 }
 
 .project-langs {
   display: flex;
   align-items: baseline;
   gap: 20px;
+  color: #6070ff;
 }
 
 .lang.name {
-  color: #6070ff;
-  font-style: normal;
-  font-weight: 500;
   font-size: 15px;
   padding-left: 10px;
 }
@@ -264,7 +269,7 @@ button:disabled {
   padding: 80px 24px;
   align-items: center;
   background-color: #6070ff;
-  background-image: url("../images/footer-bg-img.png");
+  background-image: url("../images/footer-bg-mobile.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -332,4 +337,29 @@ textarea {
   background: #0d151e;
   border-radius: 10px;
   margin-top: 50px;
+}
+
+/* Desktop Style */
+
+@media (min-width: 1080px) {
+  .logo-top {
+    padding-left: 100px;
+  }
+
+  .menu-button-burger {
+    display: none;
+  }
+
+  .nav-menu {
+    display: flex;
+    gap: 10px;
+    margin-left: 500px;
+  }
+
+  .menu-item {
+    color: #344563;
+    font-weight: 500;
+    font-size: 15px;
+    text-decoration: none;
+  }
 }

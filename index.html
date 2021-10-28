@@ -16,53 +16,59 @@
           ><img src="images/my-logo.png" class="logo-top" alt="My-Logo"
         /></a>
         <nav class="menu-button">
+          <div class="nav-menu">
+            <a class="menu-item" href="#portfolio">Portfolio</a>
+            <a class="menu-item" href="#about">About</a>
+            <a class="menu-item" href="#contact">Contact</a>
+          </div>
           <div class="menu-button-burger"></div>
         </nav>
       </div>
     </header>
-
     <main>
       <section class="headline">
-        <h2 class="main-heading">I’m Ranjeet<br />Glad to see<br />you!</h2>
-        <p class="details">
-          I’m a software developer! I can help you build a product , feature or
-          website Look through some of my work and experience! If you like what
-          you see and have a project you need coded, don’t hestiate to contact
-          me.
-        </p>
-        <p class="social-link-heading">LET’S CONNECT</p>
-        <ul class="social-link-icons">
-          <li>
-            <a href="https://twitter.com/thecodechaser"
-              ><img src="images/twitter.svg" alt="twitter"
-            /></a>
-          </li>
-          <li>
-            <a
-              href="https://linkedin.com/in/thecodechaser"
-              class="social-links"
-            >
-              <img src="images/linkedin.svg" alt="twitter"
-            /></a>
-          </li>
-          <li>
-            <a href="#" class="social-links"
-              ><img src="images/medium.svg" alt="twitter"
-            /></a>
-          </li>
-          <li>
-            <a href="https://github.com/thecodechaser" class="social-links"
-              ><img src="images/github.svg" alt="twitter"
-            /></a>
-          </li>
-          <li>
-            <a href="#" class="social-links"
-              ><img src="images/angellist.svg" alt="twitter"
-            /></a>
-          </li>
-        </ul>
+        <div class="headline-box">
+          <h2 class="main-heading">I’m Ranjeet<br />Glad to see you!</h2>
+          <p class="details">
+            I’m a software developer! I can help you build a product , feature
+            or website Look through some of my work and experience! If you like
+            what you see and have a project you need coded, don’t hestiate to
+            contact me.
+          </p>
+          <p class="social-link-heading">LET’S CONNECT</p>
+          <ul class="social-link-icons">
+            <li>
+              <a href="https://twitter.com/thecodechaser"
+                ><img src="images/twitter.svg" alt="twitter"
+              /></a>
+            </li>
+            <li>
+              <a
+                href="https://linkedin.com/in/thecodechaser"
+                class="social-links"
+              >
+                <img src="images/linkedin.svg" alt="twitter"
+              /></a>
+            </li>
+            <li>
+              <a href="#" class="social-links"
+                ><img src="images/medium.svg" alt="twitter"
+              /></a>
+            </li>
+            <li>
+              <a href="https://github.com/thecodechaser" class="social-links"
+                ><img src="images/github.svg" alt="twitter"
+              /></a>
+            </li>
+            <li>
+              <a href="#" class="social-links"
+                ><img src="images/angellist.svg" alt="twitter"
+              /></a>
+            </li>
+          </ul>
+        </div>
       </section>
-      <section class="projects">
+      <section class="projects" id="portfolio">
         <div class="project one">
           <div class="snapshoot body1">
             <img
@@ -71,45 +77,50 @@
               class="project snapshoot"
             />
           </div>
-          <h1 class="project name">Youtube Page</h1>
-
-          <div class="devs">
-            <p class="dev name">RANJEET</p>
-            <p class="dev info">• Back End Dev • 2021</p>
+          <div class="project-details">
+            <h1 class="project name">Youtube Page</h1>
+            <div class="devs">
+              <p class="dev name">RANJEET</p>
+              <p class="dev info">• Back End Dev • 2021</p>
+            </div>
+            <p class="project info">
+              Youtube clone page that plays video and other suggested videos,
+              Shows the channel info. Doest not work exact as youtube but pretty
+              good like youtube with embedded youtube video
+            </p>
+            <ul class="project-langs">
+              <li class="lang name">html</li>
+              <li class="lang name">css</li>
+            </ul>
+            <button type="button" class="project-button">See Project</button>
           </div>
-          <p class="project info">
-            Youtube clone page that plays video and other suggested videos,
-            Shows the channel info.
-          </p>
-          <ul class="project-langs">
-            <li class="lang name">html</li>
-            <li class="lang name">css</li>
-          </ul>
-          <button type="button" class="project-button">See Project</button>
         </div>
 
         <div class="project two">
-          <div class="snapshoot body2">
+          <div class="snapshoot body2 bodyOrder">
             <img
               src="images/project2.png"
               alt="project one"
               class="project snapshoot"
             />
           </div>
-          <h2 class="project name">Survay Form</h2>
-          <div class="devs">
-            <p class="dev name">RANJEET</p>
-            <p class="dev info">• Back End Dev • 2021</p>
+          <div class="project-details detailOrder">
+            <h2 class="project name">Survay Form</h2>
+            <div class="devs">
+              <p class="dev name">RANJEET</p>
+              <p class="dev info">• Back End Dev • 2021</p>
+            </div>
+            <p class="project info">
+              Survay form to take feedback from customer so improve the srvices,
+              Best user experience. Build with input fileds, radio buttons,
+              checkbox and other form elements
+            </p>
+            <ul class="project-langs">
+              <li class="lang name">html</li>
+              <li class="lang name">css</li>
+            </ul>
+            <button type="button" class="project-button">See Project</button>
           </div>
-          <p class="project info">
-            Survay form to take feedback from customer so improve the srvices,
-            Best user experience .
-          </p>
-          <ul class="project-langs">
-            <li class="lang name">html</li>
-            <li class="lang name">css</li>
-          </ul>
-          <button type="button" class="project-button">See Project</button>
         </div>
         <div class="project three">
           <div class="snapshoot body1">
@@ -119,47 +130,53 @@
               class="project snapshoot"
             />
           </div>
-          <h2 class="project name">Tribute Page</h2>
-          <div class="devs">
-            <p class="dev name">RANJEET</p>
-            <p class="dev info">• Back End Dev • 2021</p>
+          <div class="project-details">
+            <h2 class="project name">Portfolio Page</h2>
+            <div class="devs">
+              <p class="dev name">RANJEET</p>
+              <p class="dev info">• Back End Dev • 2021</p>
+            </div>
+            <p class="project info">
+              Portfolio website is project for personal Portfolio that includes
+              previous works and social network to connect. Template can be use
+              to make portfolio website.
+            </p>
+            <ul class="project-langs">
+              <li class="lang name">html</li>
+              <li class="lang name">css</li>
+            </ul>
+            <button type="button" class="project-button">See Project</button>
           </div>
-          <p class="project info">
-            Tribute page for Dr. Norman Borlaug, The man who saved a billion
-            lives. Page introduce everything about their
-          </p>
-          <ul class="project-langs">
-            <li class="lang name">html</li>
-            <li class="lang name">css</li>
-          </ul>
-          <button type="button" class="project-button">See Project</button>
         </div>
         <div class="project four">
-          <div class="snapshoot body2">
+          <div class="snapshoot body2 bodyOrder">
             <img
               src="images/project4.png"
               alt="project one"
               class="project snapshoot"
             />
           </div>
-          <h2 class="project name">Portfolio Website</h2>
-          <div class="devs">
-            <p class="dev name">RANJEET</p>
-            <p class="dev info">• Back End Dev • 2021</p>
+          <div class="project-details detailOrder">
+            <h2 class="project name">Tribute Page</h2>
+            <div class="devs">
+              <p class="dev name">RANJEET</p>
+              <p class="dev info">• Back End Dev • 2021</p>
+            </div>
+            <p class="project info">
+              Tribute page for Dr. Norman Borlaug, The man who saved a billion
+              lives. Page introduce everything about their life who was
+              inspiration for billions of peoples
+            </p>
+            <ul class="project-langs">
+              <li class="lang name">html</li>
+              <li class="lang name">css</li>
+            </ul>
+            <button type="button" class="project-button">See Project</button>
           </div>
-          <p class="project info">
-            Portfolio website is project for personal Portfolio that includes
-            previous works and social network to connect
-          </p>
-          <ul class="project-langs">
-            <li class="lang name">html</li>
-            <li class="lang name">css</li>
-          </ul>
-          <button type="button" class="project-button">See Project</button>
         </div>
       </section>
-      <ul class="about">
-        <li>
+      <div class="about">
+        <div class="about-section" id="about">
           <h2 class="main-heading">About<br />Myself</h2>
           <p class="details">
             Hello I’m a software developer! I can help you build a product ,
@@ -198,17 +215,19 @@
               /></a>
             </li>
           </ul>
-        </li>
-        <li>
           <button type="button" class="resume-button">Get my resume</button>
-        </li>
-        <li class="list-items">Langguages<i class="arrow right"></i></li>
-        <li class="list-items">Frameworks<i class="arrow right"></i></li>
-        <li class="list-items">Skills<i class="arrow right"></i></li>
-      </ul>
+        </div>
+        <div class="technology">
+          <ul>
+            <li class="list-items">Langguages<i class="arrow right"></i></li>
+            <li class="list-items">Frameworks<i class="arrow right"></i></li>
+            <li class="list-items">Skills<i class="arrow right"></i></li>
+          </ul>
+        </div>
+      </div>
     </main>
     <footer>
-      <section class="contact-form">
+      <section class="contact-form" id="contact">
         <div class="contact-form-info">
           <h2>Contact me</h2>
           <p>
