@@ -6,8 +6,12 @@ body {
   margin: 0;
 }
 
+/* header-section */
+
 header {
-  /* position: fixed; */
+  position: fixed;
+  width: 100%;
+  background-color: white;
 }
 
 .header-nav {
@@ -60,6 +64,8 @@ a:hover {
   color: blue;
 }
 
+/* hero-section */
+
 .headline {
   background-image: url("../images/header-bg-mobile.png");
   background-repeat: no-repeat;
@@ -105,6 +111,8 @@ ul {
 .social-links {
   padding-left: 20px;
 }
+
+/* project-section */
 
 .projects {
   display: grid;
@@ -216,6 +224,8 @@ ul {
   border-radius: 12px;
 }
 
+/* about-myself-section */
+
 .about {
   padding-left: 20px;
   padding-top: 40px;
@@ -296,7 +306,7 @@ button:disabled {
   -webkit-transform: rotate(-45deg);
 }
 
-/* Amadu Kamara */
+/* footer-section */
 
 .contact-form {
   width: 320px;
@@ -377,44 +387,23 @@ textarea {
   margin-top: 50px;
 }
 
-@media (min-width: 340px) and (max-width: 759px) {
-  .header-nav {
-    width: 600px;
-  }
-
-  .menu-button {
-    padding-left: 350px;
-  }
-
-  .project.name,
-  .project.info {
-    width: 600px;
-  }
-
-  .snapshoot.body1,
-  .snapshoot.body2 {
-    width: 600px;
-  }
-
-  .details {
-    width: 600px;
-  }
-
-  .contact-form {
-    width: 600px;
-  }
-}
-
 /* Desktop Style */
 
-@media (min-width: 760px) {
+@media (min-width: 992px) {
+  html,
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  /* header-section */
+
   .header-nav {
     display: flex;
-    justify-content: space-around;
   }
 
   .logo-top {
-    padding-left: 1px;
+    padding-left: 100px;
   }
 
   .menu-button-burger {
@@ -422,6 +411,7 @@ textarea {
   }
 
   .nav-menu {
+    padding-left: 550px;
     display: flex;
     gap: 10px;
   }
@@ -433,20 +423,22 @@ textarea {
     text-decoration: none;
   }
 
+  /* hero-section */
+
   .headline {
     background-image: url("../images/header-bg-pc.png");
     background-repeat: no-repeat;
     margin: 0 30px;
-    height: 110vh;
     background-size: cover;
     background-position: center;
-    width: 190vh;
+    width: 90vw;
   }
 
   .headline-box {
-    margin: 130px 250px;
     display: flex;
     flex-direction: column;
+    width: 100%;
+    padding: 134px 130px;
   }
 
   .main-heading {
@@ -455,45 +447,46 @@ textarea {
 
   .details {
     font-size: 20px;
-    width: 100%;
+    width: 80%;
   }
+
+  /* project-section */
 
   .projects {
     grid-gap: 150px;
-    padding-left: 50px;
-    width: 190vh;
+    width: 90vw;
   }
 
   .project {
     flex-direction: row;
-    justify-content: center;
-    gap: 20px;
+    justify-content: space-evenly;
+    gap: 30px;
   }
 
   .snapshoot.body1,
   .snapshoot.body2 {
-    width: 550px;
+    width: 480px;
     height: 400px;
     background-color: white;
     padding-top: 25px;
   }
 
   .project.snapshoot {
-    width: 550px;
+    width: 480px;
     height: 400px;
     padding: 0;
     margin: 0;
   }
 
   .project.snapshoot.last {
-    width: 550px;
+    width: 480px;
     height: 400px;
     padding: 0;
     margin: 0;
   }
 
   .project-details {
-    width: 550px;
+    width: 480px;
     height: 400px;
     padding-top: 25px;
     display: flex;
@@ -525,14 +518,16 @@ textarea {
   }
 
   .project.info {
-    width: 550px;
+    width: 450px;
   }
+
+  /* about-myself-section */
 
   .about {
     flex-direction: row;
     margin: 100px 140px;
-    gap: 80px;
-    width: 190vh;
+    gap: 60px;
+    width: 90vw;
   }
 
   .about-section {
@@ -554,8 +549,10 @@ textarea {
     flex-direction: column;
   }
 
+  /* footer-section */
+
   .contact-form {
-    width: 190vh;
+    width: 90vw;
     border-radius: 100px 0 0 0;
     display: flex;
     flex-direction: column;
