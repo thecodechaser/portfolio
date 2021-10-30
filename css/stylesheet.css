@@ -588,4 +588,23 @@ textarea {
   .bottom-line {
     display: none;
   }
+
+  /* Animations and transitions */
+
+  button {
+    transition: background-color 2s;
+    transition: 1s ease-in-out;
+  }
+
+  button:hover {
+    background-color: #6070ff;
+  }
+
+  .logo-top {
+    transition: transform 2s;
+  }
+
+  .logo-top:hover {
+    transform: rotate(360deg);
+  }
 }
