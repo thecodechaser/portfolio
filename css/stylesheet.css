@@ -454,16 +454,13 @@ textarea {
 
   .projects {
     grid-gap: 50px;
-    width: 80%;
-    /* margin: auto; */
+    width: 90vw;
   }
 
   .project {
     flex-direction: row;
     justify-content: space-evenly;
     gap: 30px;
-    /* padding: 24px 12px;
-    height: 496px; */
   }
 
   .snapshoot.body1,
@@ -596,7 +593,7 @@ textarea {
 
   button {
     transition: background-color 2s;
-    transition: 1s ease-in-out;
+    cursor: pointer;
   }
 
   button:hover {
@@ -604,7 +601,8 @@ textarea {
   }
 
   .logo-top {
-    transition: transform 2s;
+    transition: transform 3s;
+    transition: 1s ease-in-out;
   }
 
   .logo-top:hover {
@@ -618,7 +616,7 @@ textarea {
   }
 
   .register-info {
-    transition: transform 2s;
+    transition: transform 3s;
   }
 
   .register-info:hover {
