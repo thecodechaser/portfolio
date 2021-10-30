@@ -453,14 +453,17 @@ textarea {
   /* project-section */
 
   .projects {
-    grid-gap: 150px;
-    width: 90vw;
+    grid-gap: 50px;
+    width: 80%;
+    /* margin: auto; */
   }
 
   .project {
     flex-direction: row;
     justify-content: space-evenly;
     gap: 30px;
+    /* padding: 24px 12px;
+    height: 496px; */
   }
 
   .snapshoot.body1,
@@ -606,5 +609,19 @@ textarea {
 
   .logo-top:hover {
     transform: rotate(360deg);
+  }
+
+  .snapshoot img:hover {
+    cursor: pointer;
+    transition: 1s ease-in-out;
+    transform: scale(1.04);
+  }
+
+  .register-info {
+    transition: transform 2s;
+  }
+
+  .register-info:hover {
+    transform: translate(25px);
   }
 }
