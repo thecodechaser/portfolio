@@ -402,10 +402,6 @@ textarea {
     display: flex;
   }
 
-  .logo-top {
-    padding-left: 100px;
-  }
-
   .menu-button-burger {
     display: none;
   }
@@ -453,7 +449,7 @@ textarea {
   /* project-section */
 
   .projects {
-    grid-gap: 150px;
+    grid-gap: 50px;
     width: 90vw;
   }
 
@@ -587,5 +583,40 @@ textarea {
 
   .bottom-line {
     display: none;
+  }
+
+  /* Animations and transitions */
+
+  button {
+    transition: background-color 2s;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #6070ff;
+  }
+
+  .logo-top {
+    padding-left: 100px;
+    transition: transform 3s;
+    transition: 1s ease-in-out;
+  }
+
+  .logo-top:hover {
+    transform: rotate(360deg);
+  }
+
+  .snapshoot img:hover {
+    cursor: pointer;
+    transition: 1s ease-in-out;
+    transform: scale(1.04);
+  }
+
+  .register-info {
+    transition: transform 3s;
+  }
+
+  .register-info:hover {
+    transform: translate(25px);
   }
 }
