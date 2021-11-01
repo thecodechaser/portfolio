@@ -25,7 +25,7 @@ Porject's features are added into seperate branch to keep main branch safe.
 - HTML and CSS
 - Markup
 
-## Project Online live link
+## Online live link
 
 [Visit project online](https://thecodechaser.github.io/portfolio/)
 
