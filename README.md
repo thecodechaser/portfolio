@@ -1,14 +1,22 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio-Mobile
+# Portfolio
 
-> Portfolio-mobile project is my personal portfolio for mobile devices with my details and previous project works and includes contact me form
+> Portfolio project is my personal portfolio with my details and previous project works and includes contact me form. This project is completely responsive for mobile and desktop.
 
-## Screenshots
+## Screenshots:
+
+## Mobile
 
 ![screenshot](./images/Screenshot1.png)
 
 ![screenshot](./images/Screenshot2.png)
+
+## Desktop
+
+![screenshot](./images/Screenshot3.png)
+
+![screenshot](./images/Screenshot4.png)
 
 Porject's features are added into seperate branch to keep main branch safe.
 
@@ -19,7 +27,7 @@ Porject's features are added into seperate branch to keep main branch safe.
 
 ## Live Demo
 
-[Live Demo Link](https://thecodechaser.github.io/portfolio-mobile/)
+[Live Demo Link](https://thecodechaser.github.io/portfolio/)
 
 ## Getting Started
 
@@ -27,11 +35,11 @@ To get a local copy up and running follow these simple example steps.
 
 ## Visit And Open Files
 
-[Visit Repo](https://github.com/thecodechaser/portfolio-mobile)
+[Visit Repo](https://github.com/thecodechaser/portfolio)
 
 ## Download Repo
 
-[Download Repo](https://github.com/thecodechaser/portfolio-mobile/archive/refs/heads/main.zip)
+[Download Repo](https://github.com/thecodechaser/portfolio/archive/refs/heads/main.zip)
 
 ## Authors
 
@@ -45,7 +53,7 @@ To get a local copy up and running follow these simple example steps.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/thecodechaser/portfolio-mobile/issues).
+Feel free to check the [issues page](https://github.com/thecodechaser/portfolio/issues).
 
 ## Show your support
 

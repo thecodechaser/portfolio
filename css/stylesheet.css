@@ -3,10 +3,23 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+/* header-section */
+
+header {
+  position: fixed;
+  width: 100%;
+  background-color: white;
 }
 
 .header-nav {
   display: flex;
+}
+
+.nav-menu {
+  display: none;
 }
 
 .logo-top {
@@ -21,7 +34,7 @@ body {
   width: 40px;
   height: 30px;
   cursor: pointer;
-  padding-left: 115px;
+  padding-left: 160px;
 }
 
 .menu-button-burger {
@@ -51,8 +64,10 @@ a:hover {
   color: blue;
 }
 
+/* hero-section */
+
 .headline {
-  background-image: url("../images/headline-bg.png");
+  background-image: url("../images/header-bg-mobile.png");
   background-repeat: no-repeat;
   padding-left: 20px;
   padding-top: 40px;
@@ -97,25 +112,44 @@ ul {
   padding-left: 20px;
 }
 
+/* project-section */
+
 .projects {
   display: grid;
   padding-left: 20px;
-  padding-top: 50px;
+  width: 320px;
+  grid-gap: 50px;
+  margin-top: 50px;
 }
 
-.project.one {
+.project {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
+  background: #fff;
+  margin: 44px 0;
+  box-sizing: border-box;
+  border-radius: 16px;
+}
+
+.project.one,
+.project.two,
+.project.three {
+  border: 1px solid #dfe1e6;
 }
 
 .snapshoot.body1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 295px;
   height: 220px;
   background-color: #eab676;
 }
 
 .snapshoot.body2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 295px;
   height: 220px;
   background-color: #e28743;
@@ -124,14 +158,17 @@ ul {
 .project.snapshoot {
   width: 250px;
   height: 160px;
-  padding-left: 22px;
-  padding-top: 33px;
+}
+
+.project.snapshoot.last {
+  width: 250px;
+  height: 210px;
 }
 
 .project.name {
   color: #172b4d;
   font-size: 20px;
-  line-height: 44px;
+  margin-bottom: 1px;
 }
 
 .devs {
@@ -142,39 +179,35 @@ ul {
 .dev.name {
   color: #344563;
   font-size: 13px;
-  line-height: 30px;
+  font-weight: 500;
 }
 
 .dev.info {
   color: #7a869a;
   font-weight: 600;
   font-size: 13px;
-  line-height: 16px;
   padding-left: 20px;
 }
 
 .project.info {
+  font-size: 16px;
+  width: 320px;
   color: #344563;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 15px;
-  line-height: 24px;
-  width: 295px;
 }
 
 .project-langs {
   display: flex;
   align-items: baseline;
   gap: 20px;
+  color: #6070ff;
 }
 
 .lang.name {
-  color: #6070ff;
-  font-style: normal;
-  font-weight: 500;
   font-size: 15px;
-  line-height: 16px;
   padding-left: 10px;
+  background-color: #ebebff;
+  text-align: center;
+  width: 80px;
 }
 
 .project-link {
@@ -183,7 +216,6 @@ ul {
   text-align: center;
   font-weight: 500;
   font-size: 18px;
-  line-height: 24px;
   text-decoration: none;
   border: 1.5px solid #396df2;
   width: 130px;
@@ -192,12 +224,7 @@ ul {
   border-radius: 12px;
 }
 
-.project.two {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  padding-top: 70px;
-}
+/* about-myself-section */
 
 .about {
   padding-left: 20px;
@@ -254,6 +281,19 @@ button:disabled {
   line-height: 24px;
 }
 
+.lang-container {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.lang-name-tech {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #253858;
+}
+
 .arrow {
   border: solid #acb7c3;
   border-width: 0 3px 3px 0;
@@ -266,9 +306,7 @@ button:disabled {
   -webkit-transform: rotate(-45deg);
 }
 
-/* Contact Form Styles */
-
-/* Amadu Kamara */
+/* footer-section */
 
 .contact-form {
   width: 320px;
@@ -279,7 +317,7 @@ button:disabled {
   padding: 80px 24px;
   align-items: center;
   background-color: #6070ff;
-  background-image: url("../images/footer-bg-img.png");
+  background-image: url("../images/footer-bg-mobile.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -347,4 +385,207 @@ textarea {
   background: #0d151e;
   border-radius: 10px;
   margin-top: 50px;
+}
+
+/* Desktop Style */
+
+@media (min-width: 992px) {
+  html,
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  /* header-section */
+
+  .header-nav {
+    display: flex;
+  }
+
+  .logo-top {
+    padding-left: 100px;
+  }
+
+  .menu-button-burger {
+    display: none;
+  }
+
+  .nav-menu {
+    padding-left: 550px;
+    display: flex;
+    gap: 10px;
+  }
+
+  .menu-item {
+    color: #344563;
+    font-weight: 500;
+    font-size: 15px;
+    text-decoration: none;
+  }
+
+  /* hero-section */
+
+  .headline {
+    background-image: url("../images/header-bg-pc.png");
+    background-repeat: no-repeat;
+    margin: 0 30px;
+    background-size: cover;
+    background-position: center;
+    width: 90vw;
+  }
+
+  .headline-box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 134px 130px;
+  }
+
+  .main-heading {
+    font-size: 48px;
+  }
+
+  .details {
+    font-size: 20px;
+    width: 80%;
+  }
+
+  /* project-section */
+
+  .projects {
+    grid-gap: 150px;
+    width: 90vw;
+  }
+
+  .project {
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 30px;
+  }
+
+  .snapshoot.body1,
+  .snapshoot.body2 {
+    width: 480px;
+    height: 400px;
+    background-color: white;
+    padding-top: 25px;
+  }
+
+  .project.snapshoot {
+    width: 480px;
+    height: 400px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .project.snapshoot.last {
+    width: 480px;
+    height: 400px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .project-details {
+    width: 480px;
+    height: 400px;
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+  }
+
+  .snapshoot.body2.bodyOrder {
+    order: 2;
+  }
+
+  .project-details.detailOrder {
+    order: 1;
+  }
+
+  .project.name {
+    font-weight: bold;
+    font-size: 40px;
+    color: #091e42;
+  }
+
+  .dev.name {
+    font-size: 18px;
+  }
+
+  .dev.info {
+    color: #6b778c;
+    font-size: 18px;
+  }
+
+  .project.info {
+    width: 450px;
+  }
+
+  /* about-myself-section */
+
+  .about {
+    flex-direction: row;
+    margin: 100px 140px;
+    gap: 60px;
+    width: 90vw;
+  }
+
+  .about-section {
+    width: 40%;
+  }
+
+  .lang-details {
+    display: flex;
+    gap: 70px;
+  }
+
+  .lang-container img {
+    width: 55px;
+    height: 55px;
+  }
+
+  .lang-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* footer-section */
+
+  .contact-form {
+    width: 90vw;
+    border-radius: 100px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 80px 50px 80px;
+    background-image: url("../images/footer-bg-pc.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .contact-form-info {
+    width: 45%;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-form input,
+  textarea {
+    width: 400px;
+    margin-top: 18px;
+    padding: 15px 16px;
+    border-radius: 8px;
+    border: none;
+  }
+
+  .contact-button {
+    margin-left: 130px;
+  }
+
+  .bottom-line {
+    display: none;
+  }
 }
