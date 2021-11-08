@@ -19,6 +19,6 @@ function display2() {
 button.addEventListener('click', display);
 button2.addEventListener('click', display2);
 
-menuItems.forEach(function items(item) {
+menuItems.forEach(function (item) {
   item.addEventListener('click', display2);
 });
