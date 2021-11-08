@@ -1,5 +1,6 @@
 let button = document.querySelector(".btn-open");
 let button2 = document.querySelector(".btn-close");
+let menuItems = document.querySelectorAll(".menu-item2");
 
 function display() {
   let menuContainer = document.querySelector(".mobile-menu-container");
@@ -17,3 +18,7 @@ function display2() {
 
 button.addEventListener("click", display);
 button2.addEventListener("click", display2);
+
+menuItems.forEach(function (item) {
+  item.addEventListener("click", display2);
+});
