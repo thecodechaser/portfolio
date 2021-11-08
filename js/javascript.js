@@ -19,3 +19,4 @@ function display2() {
 }
 
 button.addEventListener("click", display);
+button2.addEventListener('click', display2);

@@ -440,6 +440,14 @@ textarea {
     text-decoration: none;
   }
 
+  .mobile-nav-container {
+    display: none;
+  }
+
+  .mobile-menu-container {
+    display: none;
+  }
+
   /* hero-section */
 
   .headline {
