@@ -1,24 +1,24 @@
-let button = document.querySelector(".btn-open");
-let button2 = document.querySelector(".btn-close");
-let menuItems = document.querySelectorAll(".menu-item2");
+const button = document.querySelector('.btn-open');
+const button2 = document.querySelector('.btn-close');
+const menuItems = document.querySelectorAll('.menu-item2');
 
 function display() {
-  let menuContainer = document.querySelector(".mobile-menu-container");
-  menuContainer.style.display = "block";
-  let buttonContainer = document.querySelector(".btn-container-open");
-  buttonContainer.style.display = "none";
+  const menuContainer = document.querySelector('.mobile-menu-container');
+  menuContainer.style.display = 'block';
+  const buttonContainer = document.querySelector('.btn-container-open');
+  buttonContainer.style.display = 'none';
 }
 
 function display2() {
-  let menuContainer = document.querySelector(".mobile-menu-container");
-  menuContainer.style.display = "none";
-  let buttonContainer = document.querySelector(".btn-container-open");
-  buttonContainer.style.display = "block";
+  const menuContainer = document.querySelector('.mobile-menu-container');
+  menuContainer.style.display = 'none';
+  const buttonContainer = document.querySelector('.btn-container-open');
+  buttonContainer.style.display = 'block';
 }
 
-button.addEventListener("click", display);
-button2.addEventListener("click", display2);
+button.addEventListener('click', display);
+button2.addEventListener('click', display2);
 
-menuItems.forEach(function (item) {
-  item.addEventListener("click", display2);
+menuItems.forEach(function items(item) {
+  item.addEventListener('click', display2);
 });
