@@ -2,14 +2,19 @@
 <html lang="en">
   <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-BYDKLECG3N"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){window.dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-BYDKLECG3N"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        window.dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-  gtag('config', 'GA_MEASUREMENT_ID');
-</script>
+      gtag("config", "GA_MEASUREMENT_ID");
+    </script>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta
@@ -32,12 +37,22 @@
             <a class="menu-item" href="#about">About</a>
             <a class="menu-item" href="#contact">Contact</a>
           </div>
-          <div class="menu-button-burger"></div>
+
+          <div class="mobile-nav-container">
+            <div class="btn-container-open">
+            <button class="menu-button-btn">
+              <img class="menu-botton-burger" src="images/hamburger.png" />
+            </button></div>
+          <div class="mobile-menu-container">
+          
+          
+          </div>  
+          </div>
         </nav>
       </div>
     </header>
     <main>
-     <!-- #### Hero-Scetion #### -->
+      <!-- #### Hero-Scetion #### -->
       <section class="headline">
         <div class="headline-box">
           <h2 class="main-heading">I’m Ranjeet<br />Glad to see you!</h2>
@@ -261,5 +276,7 @@
         <div class="bottom-line"></div>
       </section>
     </footer>
+
+    <script defer src="js/javascript.js"></script>
   </body>
 </html>

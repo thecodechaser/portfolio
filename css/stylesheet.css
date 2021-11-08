@@ -37,27 +37,30 @@ header {
   padding-left: 160px;
 }
 
-.menu-button-burger {
-  width: 30px;
-  height: 4px;
-  background: #6070ff;
+
+.menu-button-btn {
+  border: none;
+}
+.menu-button-btn-close {
+background-color: rgba(0, 89, 255, 0.568);
 }
 
-.menu-button-burger::before,
-.menu-button-burger::after {
-  content: "";
-  position: absolute;
-  width: 30px;
-  height: 4px;
-  background: #6070ff;
+.menu-button-btn:hover{
+  background-color: white;
 }
 
-.menu-button-burger::before {
-  transform: translateY(-8px);
+.menu-button-btn-close:hover{
+  background-color: rgba(0, 89, 255, 0.568);
 }
 
-.menu-button-burger::after {
-  transform: translateY(8px);
+.mobile-menu-container{
+ position: absolute;
+ top: 0px;
+ left : 0px;
+  height: 100vh;
+  width: 400px;
+  background-color: rgba(0, 89, 255, 0.568);
+  display: none;
 }
 
 a:hover {
@@ -400,10 +403,6 @@ textarea {
 
   .header-nav {
     display: flex;
-  }
-
-  .menu-button-burger {
-    display: none;
   }
 
   .nav-menu {
