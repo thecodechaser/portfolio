@@ -34,55 +34,70 @@ header {
   width: 40px;
   height: 30px;
   cursor: pointer;
-  padding-left: 160px;
+  padding-left: 150px;
 }
 
-.menu-button-btn {
+.btn-open {
+  margin-top: 20px;
   border: none;
-}
-.menu-button-btn-close {
-background-color: rgba(0, 89, 255, 0.568);
+  cursor: pointer;
 }
 
-.menu-button-btn:hover{
-  background-color: white;
+.btn-open-img {
+  height: 55px;
 }
 
-.menu-button-btn-close:hover{
-  background-color: rgba(0, 89, 255, 0.568);
-}
-
-.mobile-menu-container{
- position: absolute;
- top: 0px;
- left : 0px;
-  height: 100vh;
-  width: 400px;
-  background-color: rgba(0, 89, 255, 0.568);
-  display: none;
-}
-
-.menu-botton-burger {
+.btn-close {
+  background: transparent;
+  cursor: pointer;
   width: 40px;
   height: 50px;
+  border: none;
 }
 
+.btn-open:hover {
+  background: transparent;
+}
+
+.btn-close:hover {
+  background: transparent;
+}
+
+.btn-close-text {
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.mobile-menu-container {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100vh;
+  width: 400px;
+  background-color: #6070ffd3;;
+  display: none;
+  backdrop-filter: blur(3px);
+}
 
 .btn-container-close {
   position: absolute;
   right: 5px;
 }
 
-.menu-list-items{
-  margin-top: 100px;
+.menu-list-items {
+  margin-top: 70px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 20px;
+  margin-left: 30px;
+  gap: 15px;
 }
 
-.menu-item2{
-  color: white;
+.menu-item2 {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  text-decoration: none;
 }
 
 a:hover {
