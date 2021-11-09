@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-BYDKLECG3N"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){window.dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'GA_MEASUREMENT_ID');
-</script>
     <meta charset="UTF-8" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-BYDKLECG3N"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        window.dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "GA_MEASUREMENT_ID");
+    </script>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta
       name="viewport"
@@ -19,6 +24,7 @@
     <link rel="stylesheet" href="css/stylesheet.css" />
     <title>Portfolio</title>
   </head>
+
   <body>
     <!-- #### Header-Section #### -->
     <header>
@@ -32,12 +38,33 @@
             <a class="menu-item" href="#about">About</a>
             <a class="menu-item" href="#contact">Contact</a>
           </div>
-          <div class="menu-button-burger"></div>
+
+          <div class="mobile-nav-container">
+            <div class="btn-container-open">
+              <button class="btn-open" type="button">
+                <img
+                  class="btn-open-img"
+                  src="images/hamburger.png"
+                  alt="hamburger menu"
+                />
+              </button>
+            </div>
+            <div class="mobile-menu-container">
+              <div class="btn-container-close">
+                <button class="btn-close" type="button">X</button>
+              </div>
+              <div class="menu-list-items">
+                <a class="menu-item2" href="#portfolio">Portfolio</a>
+                <a class="menu-item2" href="#about">About</a>
+                <a class="menu-item2" href="#contact">Contact</a>
+              </div>
+            </div>
+          </div>
         </nav>
       </div>
     </header>
     <main>
-     <!-- #### Hero-Scetion #### -->
+      <!-- #### Hero-Scetion #### -->
       <section class="headline">
         <div class="headline-box">
           <h2 class="main-heading">I’m Ranjeet<br />Glad to see you!</h2>
@@ -206,25 +233,23 @@
           <button type="button" class="resume-button">Get my resume</button>
         </div>
         <div class="technology">
-          <ul>
-            <li class="list-items">Langguages<i class="arrow right"></i></li>
-            <div class="lang-details">
-              <div class="lang-container">
-                <img src="images/js.png" />
-                <h3 class="lang-name-tech">JavaScript</h3>
-              </div>
-              <div class="lang-container">
-                <img src="images/html.png" />
-                <h3 class="lang-name-tech">HTML</h3>
-              </div>
-              <div class="lang-container">
-                <img src="images/css.png" />
-                <h3 class="lang-name-tech">CSS</h3>
-              </div>
+          <div class="list-items">Langguages<i class="arrow right"></i></div>
+          <div class="lang-details">
+            <div class="lang-container">
+              <img src="images/js.png" alt="language name" />
+              <h3 class="lang-name-tech">JavaScript</h3>
             </div>
-            <li class="list-items">Frameworks<i class="arrow right"></i></li>
-            <li class="list-items">Skills<i class="arrow right"></i></li>
-          </ul>
+            <div class="lang-container">
+              <img src="images/html.png" alt="language name"/>
+              <h3 class="lang-name-tech">HTML</h3>
+            </div>
+            <div class="lang-container">
+              <img src="images/css.png" alt="language name"/>
+              <h3 class="lang-name-tech">CSS</h3>
+            </div>
+          </div>
+          <div class="list-items">Frameworks<i class="arrow right"></i></div>
+          <div class="list-items">Skills<i class="arrow right"></i></div>
         </div>
       </div>
     </main>
@@ -261,5 +286,7 @@
         <div class="bottom-line"></div>
       </section>
     </footer>
+
+    <script defer src="js/javascript.js"></script>
   </body>
 </html>
