@@ -44,8 +44,8 @@ const buttonTwo = document.querySelector('.project-button.two');
 const buttonThree = document.querySelector('.project-button.three');
 
 function close() {
-  const container = document.querySelector(".popup-container");
-  container.style.display = "none";
+  const container = document.querySelector('.popup-container');
+  container.style.display = 'none';
 }
 
 function open(index) {
