@@ -123,4 +123,73 @@
   .btn-pu.t {
     margin-left: 20px;
   }
+
+  /* desktop */
+
+@media (min-width: 992px) {
+  .main-pu-container {
+    margin: 35px 70px 35px 20px;
+  }
+
+  .project-title-pu {
+    font-size: 40px;
+  }
+
+  .close-btn-pu {
+    right: 60px;
+  }
+
+  .dev-pu {
+    font-size: 14px;
+  }
+
+  .dev-pu2 {
+    font-size: 14px;
+  }
+
+  .conatiner-pc-pu {
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+  }
+
+  .img-container-pu {
+    background-color: #e5e5e5;
+    height: 500px;
+    margin-top: 25px;
+    border-radius: 5px;
+  }
+
+  .project-img-pu {
+    margin: 0 60px;
+    width: 90%;
+    height: 100%;
+  }
+
+  .content-container {
+    margin: 0px 50px;
+  }
+
+  .project-info-pu {
+    width: 75%;
+    font-size: 17px;
+  }
+
+  .project-info-pu2 {
+    margin-top: 10px;
+  }
+
+  .tags-pu {
+    margin-left: 22px;
+  }
+
+  .tag-pu {
+    font-size: 17px;
+  }
+
+  .btn-pu {
+    margin-left: 20px;
+  }
+}
+
   
