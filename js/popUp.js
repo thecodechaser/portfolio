@@ -1,63 +1,63 @@
 const projects = [
   {
-    title: "Tonic",
-    devs: ["Ranjeet", " • backend", " • 2021"],
+    title: 'Tonic',
+    devs: ['Ranjeet', ' • backend', ' • 2021'],
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    tags: ["html", "css", "javascript"],
-    image: "images/project1pu.png",
-    liveVersion: "See Live",
-    sourceLink: "See Source",
-    btnImg1: "images/btn-img-pu1.png",
-    btnImg2: "images/btn-img-pu2.png",
+    tags: ['html', 'css', 'javascript'],
+    image: 'images/project1pu.png',
+    liveVersion: 'See Live',
+    sourceLink: 'See Source',
+    btnImg1: 'images/btn-img-pu1.png',
+    btnImg2: 'images/btn-img-pu2.png',
   },
 
   {
-    title: "Multi-Post Stories",
-    devs: ["Ranjeet", " • backend", " • 2021"],
+    title: 'Multi-Post Stories',
+    devs: ['Ranjeet', ' • backend', ' • 2021'],
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    tags: ["html", "css", "javascript"],
-    image: "images/project2.png",
-    liveVersion: "See Live",
-    sourceLink: "See Source",
-    btnImg1: "images/btn-img-pu1.png",
-    btnImg2: "images/btn-img-pu2.png",
+    tags: ['html','css', 'javascript'],
+    image: 'images/project2.png',
+    liveVersion: 'See Live',
+    sourceLink: 'See Source',
+    btnImg1: 'images/btn-img-pu1.png',
+    btnImg2: 'images/btn-img-pu2.png',
   },
 
   {
-    title: "Facebook 360",
-    devs: ["Ranjeet", " • backend", " • 2021"],
+    title: 'Facebook 360',
+    devs: ['Ranjeet', ' • backend', ' • 2021'],
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    tags: ["html", "css", "javascript"],
-    image: "images/project3.png",
-    liveVersion: "See Live",
-    sourceLink: "See Source",
-    btnImg1: "images/btn-img-pu1.png",
-    btnImg2: "images/btn-img-pu2.png",
+    tags: ['html', 'css', 'javascript'],
+    image: 'images/project3.png',
+    liveVersion: 'See Live',
+    sourceLink: 'See Source',
+    btnImg1: 'images/btn-img-pu1.png',
+    btnImg2: 'images/btn-img-pu2.png',
   },
 ];
 
-const buttonOne = document.querySelector(".project-button.one");
-const buttonTwo = document.querySelector(".project-button.two");
-const buttonThree = document.querySelector(".project-button.three");
+const buttonOne = document.querySelector('.project-button.one');
+const buttonTwo = document.querySelector('.project-button.two');
+const buttonThree = document.querySelector('.project-button.three');
 
 function open(index) {
-  let title = projects[index].title;
-  let description = projects[index].description;
-  let liveVersion = projects[index].liveVersion;
-  let sourceLink = projects[index].sourceLink;
-  let image = projects[index].image;
-  let dev1 = projects[index].devs[0];
-  let dev2 = projects[index].devs[1];
-  let dev3 = projects[index].devs[2];
-  let tags1 = projects[index].tags[0];
-  let tags2 = projects[index].tags[1];
-  let tags3 = projects[index].tags[2];
-  let btnImg1=projects[index].btnImg1;
-  let btnImg2=projects[index].btnImg2;
-  const container = document.querySelector(".popup-container");
+  const title = projects[index].title;
+  const description = projects[index].description;
+  const liveVersion = projects[index].liveVersion;
+  const sourceLink = projects[index].sourceLink;
+  const image = projects[index].image;
+  const dev1 = projects[index].devs[0];
+  const dev2 = projects[index].devs[1];
+  const dev3 = projects[index].devs[2];
+  const tags1 = projects[index].tags[0];
+  const tags2 = projects[index].tags[1];
+  const tags3 = projects[index].tags[2];
+  const btnImg1 = projects[index].btnImg1;
+  const btnImg2 = projects[index].btnImg2;
+  const container = document.querySelector('.popup-container');
   container.innerHTML = `
   <div class="main-pu-container">
   <div class="content-container">
@@ -91,29 +91,23 @@ function open(index) {
   </div>
 
 `;
-  container.style.display = "block";
+  container.style.display = 'block';
 
-  const buttonClose = document.querySelector(".close-btn-pu");
-  buttonClose.addEventListener("click", close);
-};
+  const buttonClose = document.querySelector('.close-btn-pu');
+  buttonClose.addEventListener('click', close);
+}
 
 function close() {
-  const container = document.querySelector(".popup-container");
-  container.style.display = "none";
-};
+  const container = document.querySelector('.popup-container');
+  container.style.display = 'none';
+}
 
-buttonOne.addEventListener("click", () => {
+buttonOne.addEventListener('click', () => {
   open(0);
 });
-buttonTwo.addEventListener("click", () => {
+buttonTwo.addEventListener('click', () => {
   open(1);
 });
-buttonThree.addEventListener("click", () => {
+buttonThree.addEventListener('click', () => {
   open(2);
 });
-
-
-
-
-
-
