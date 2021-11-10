@@ -17,7 +17,7 @@ const projects = [
     devs: ['Ranjeet', ' • backend', ' • 2021'],
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    tags: ['html','css', 'javascript'],
+    tags: ['html', 'css', 'javascript'],
     image: 'images/project2.png',
     liveVersion: 'See Live',
     sourceLink: 'See Source',
@@ -43,20 +43,29 @@ const buttonOne = document.querySelector('.project-button.one');
 const buttonTwo = document.querySelector('.project-button.two');
 const buttonThree = document.querySelector('.project-button.three');
 
+function close() {
+  const container = document.querySelector(".popup-container");
+  container.style.display = "none";
+}
+
 function open(index) {
-  const title = projects[index].title;
-  const description = projects[index].description;
-  const liveVersion = projects[index].liveVersion;
-  const sourceLink = projects[index].sourceLink;
-  const image = projects[index].image;
-  const dev1 = projects[index].devs[0];
-  const dev2 = projects[index].devs[1];
-  const dev3 = projects[index].devs[2];
-  const tags1 = projects[index].tags[0];
-  const tags2 = projects[index].tags[1];
-  const tags3 = projects[index].tags[2];
-  const btnImg1 = projects[index].btnImg1;
-  const btnImg2 = projects[index].btnImg2;
+  const {
+    title,
+    devs,
+    description,
+    tags,
+    image,
+    liveVersion,
+    sourceLink,
+    btnImg1,
+    btnImg2,
+  } = projects[index];
+  const dev1 = devs[0];
+  const dev2 = devs[1];
+  const dev3 = devs[2];
+  const tags1 = tags[0];
+  const tags2 = tags[1];
+  const tags3 = tags[2];
   const container = document.querySelector('.popup-container');
   container.innerHTML = `
   <div class="main-pu-container">
@@ -92,14 +101,8 @@ function open(index) {
 
 `;
   container.style.display = 'block';
-
   const buttonClose = document.querySelector('.close-btn-pu');
   buttonClose.addEventListener('click', close);
-}
-
-function close() {
-  const container = document.querySelector('.popup-container');
-  container.style.display = 'none';
 }
 
 buttonOne.addEventListener('click', () => {
