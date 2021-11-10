@@ -1,1 +1,126 @@
+/* pop-up styles */
 
+.popup-container {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    overflow: auto;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #c1c7d0d8;
+  }
+  
+  .main-pu-container {
+    margin: 40px 16px;
+    background-color: white;
+    border-radius: 16px;
+  }
+  
+  .content-container {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px;
+  }
+  
+  .heading-btn {
+    display: flex;
+  }
+  
+  .project-title-pu {
+    color: #172b4d;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 44px;
+    margin-bottom: 10px;
+  }
+  
+  .close-btn-pu {
+    position: absolute;
+    right: 0;
+    top: 50px;
+    background: transparent;
+    cursor: pointer;
+    width: 40px;
+    height: 50px;
+    border: none;
+    font-weight: lighter;
+    font-size: 20px;
+    margin-right: 20px;
+  }
+  
+  .devs-pu {
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+  }
+  
+  .dev-pu {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+  
+    color: #344563;
+  }
+
+  .dev-pu2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: #7a869a;
+  }
+  
+  .project-img-pu {
+    width: 100%;
+    height: 100%;
+    margin-top: 15px;
+  }
+  
+  .project-info-pu {
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    color: #344563;
+    margin-top: 10px;
+  }
+  
+  .tags-pu {
+    display: flex;
+    list-style-type: none;
+    align-items: baseline;
+    color: #6070ff;
+  }
+  
+  .tag-pu {
+    font-size: 15px;
+    background-color: #ebebff;
+    width: 80px;
+  }
+  
+  .btn-container-pu {
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  
+  .btn-pu {
+    color: #396df2;
+    font-style: normal;
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+    border: 1.5px solid #396df2;
+    width: 130px;
+    margin-top: 15px;
+    height: 40px;
+    border-radius: 12px;
+  }
+  
+  .btn-pu.t {
+    margin-left: 20px;
+  }
+  
