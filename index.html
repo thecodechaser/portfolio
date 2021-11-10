@@ -21,7 +21,8 @@
       name="viewport"
       content="width=device-width, height=device-height, initial-scale=1.0"
     />
-    <link rel="stylesheet" href="css/stylesheet.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/popUp.css" />
     <title>Portfolio</title>
   </head>
 
@@ -109,6 +110,8 @@
       </section>
       <!-- #### Project-Work-section #### -->
       <section class="projects" id="portfolio">
+        <div class="popup-container">
+            </div>
         <div class="project one">
           <div class="snapshoot body1">
             <img
@@ -132,7 +135,7 @@
               <li class="lang name">css</li>
               <li class="lang name">javascript</li>
             </ul>
-            <button type="button" class="project-button">See Project</button>
+            <button type="button" class="project-button one" data-id = "1">See Project</button>
           </div>
         </div>
 
@@ -159,7 +162,7 @@
               <li class="lang name">css</li>
               <li class="lang name">javascript</li>
             </ul>
-            <button type="button" class="project-button">See Project</button>
+            <button type="button" class="project-button two">See Project</button>
           </div>
         </div>
         <div class="project three">
@@ -185,7 +188,7 @@
               <li class="lang name">css</li>
               <li class="lang name">javascript</li>
             </ul>
-            <button type="button" class="project-button">See Project</button>
+            <button type="button" class="project-button three">See Project</button>
           </div>
         </div>
       </section>
@@ -288,5 +291,6 @@
     </footer>
 
     <script defer src="js/javascript.js"></script>
+    <script defer src="js/popUp.js"></script>
   </body>
 </html>
