@@ -1,9 +1,9 @@
-const form = document.querySelector(".form-element");
-const message = "Please enter email address in lower case";
+const form = document.querySelector('.form-element');
+const message = "Email must contain only lower case characters";
 
 function showMessage(input, message) {
-  const msg = input.parentNode.querySelector("small");
-  msg.innerText = message;
+  const msg = document.querySelector('.validation-msg');
+  msg.innerHTML = `<p class="error-msg">${message}</p>`;
 }
 
 function validateEmail(input) {
@@ -16,11 +16,13 @@ function validateEmail(input) {
   }
 }
 
-form.addEventListener("submit", function (event) {
+form.addEventListener('submit', function (event) {
+  const msg = document.querySelector('.validation-msg');
   event.preventDefault();
-  let input = form.elements["email"];
+  let input = form.elements['email'];
   const emailValid = validateEmail(input);
   if (emailValid) {
+    msg.remove();
     form.submit();
     form.reset();
   } else {
