@@ -10,15 +10,14 @@ function validateEmail(input) {
   const value = input.toLowerCase();
   if (value.localeCompare(input) === 0) {
     return true;
-  } else {
+  } 
    return false;
-  }
 }
 
-form.addEventListener('submit', function (event) {
-  const msg = document.querySelector('.validation-msg');
+form.addEventListener("submit", (event) => {
+  const msg = document.querySelector(".validation-msg");
   event.preventDefault();
-  const input = form.elements['email'];
+  const input = form.elements[1];
   const emailValid = validateEmail(input.value);
   if (emailValid) {
     msg.remove();
