@@ -419,6 +419,13 @@ textarea {
   color: #5e6c84;
 }
 
+.validation-msg {
+  margin-top: 2px;
+  color: white;
+  font-size: 16px;
+  height: 30px;
+}
+
 .bottom-line {
   width: 134px;
   height: 5px;
@@ -626,6 +633,10 @@ textarea {
     margin-left: 130px;
   }
 
+  .error-msg {
+    text-align: center;
+  }
+    
   .bottom-line {
     display: none;
   }
