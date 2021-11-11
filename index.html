@@ -1,296 +1,240 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-BYDKLECG3N"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        window.dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
 
-      gtag("config", "GA_MEASUREMENT_ID");
-    </script>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="viewport"
-      content="width=device-width, height=device-height, initial-scale=1.0"
-    />
-    <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="css/popUp.css" />
-    <title>Portfolio</title>
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-BYDKLECG3N"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      window.dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
 
-  <body>
-    <!-- #### Header-Section #### -->
-    <header>
-      <div class="header-nav">
-        <a href="#"
-          ><img src="images/my-logo.png" class="logo-top" alt="My-Logo"
-        /></a>
-        <nav class="menu-button">
-          <div class="nav-menu">
-            <a class="menu-item" href="#portfolio">Portfolio</a>
-            <a class="menu-item" href="#about">About</a>
-            <a class="menu-item" href="#contact">Contact</a>
+    gtag("config", "GA_MEASUREMENT_ID");
+  </script>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/popUp.css" />
+  <title>Portfolio</title>
+</head>
+
+<body>
+  <!-- #### Header-Section #### -->
+  <header>
+    <div class="header-nav">
+      <a href="#"><img src="images/my-logo.png" class="logo-top" alt="My-Logo" /></a>
+      <nav class="menu-button">
+        <div class="nav-menu">
+          <a class="menu-item" href="#portfolio">Portfolio</a>
+          <a class="menu-item" href="#about">About</a>
+          <a class="menu-item" href="#contact">Contact</a>
+        </div>
+
+        <div class="mobile-nav-container">
+          <div class="btn-container-open">
+            <button class="btn-open" type="button">
+              <img class="btn-open-img" src="images/hamburger.png" alt="hamburger menu" />
+            </button>
           </div>
-
-          <div class="mobile-nav-container">
-            <div class="btn-container-open">
-              <button class="btn-open" type="button">
-                <img
-                  class="btn-open-img"
-                  src="images/hamburger.png"
-                  alt="hamburger menu"
-                />
-              </button>
+          <div class="mobile-menu-container">
+            <div class="btn-container-close">
+              <button class="btn-close" type="button">X</button>
             </div>
-            <div class="mobile-menu-container">
-              <div class="btn-container-close">
-                <button class="btn-close" type="button">X</button>
-              </div>
-              <div class="menu-list-items">
-                <a class="menu-item2" href="#portfolio">Portfolio</a>
-                <a class="menu-item2" href="#about">About</a>
-                <a class="menu-item2" href="#contact">Contact</a>
-              </div>
+            <div class="menu-list-items">
+              <a class="menu-item2" href="#portfolio">Portfolio</a>
+              <a class="menu-item2" href="#about">About</a>
+              <a class="menu-item2" href="#contact">Contact</a>
             </div>
           </div>
-        </nav>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <!-- #### Hero-Scetion #### -->
+    <section class="headline">
+      <div class="headline-box">
+        <h2 class="main-heading">I’m Ranjeet<br />Glad to see you!</h2>
+        <p class="details">
+          I’m a software developer! I can help you build a product , feature
+          or website Look through some of my work and experience! If you like
+          what you see and have a project you need coded, don’t hestiate to
+          contact me.
+        </p>
+        <p class="social-link-heading">LET’S CONNECT</p>
+        <ul class="social-link-icons">
+          <li>
+            <a href="https://twitter.com/thecodechaser"><img src="images/twitter.svg" alt="twitter" /></a>
+          </li>
+          <li>
+            <a href="https://linkedin.com/in/thecodechaser" class="social-links">
+              <img src="images/linkedin.svg" alt="twitter" /></a>
+          </li>
+          <li>
+            <a href="#" class="social-links"><img src="images/medium.svg" alt="twitter" /></a>
+          </li>
+          <li>
+            <a href="https://github.com/thecodechaser" class="social-links"><img src="images/github.svg"
+                alt="twitter" /></a>
+          </li>
+          <li>
+            <a href="#" class="social-links"><img src="images/angellist.svg" alt="twitter" /></a>
+          </li>
+        </ul>
       </div>
-    </header>
-    <main>
-      <!-- #### Hero-Scetion #### -->
-      <section class="headline">
-        <div class="headline-box">
-          <h2 class="main-heading">I’m Ranjeet<br />Glad to see you!</h2>
-          <p class="details">
-            I’m a software developer! I can help you build a product , feature
-            or website Look through some of my work and experience! If you like
-            what you see and have a project you need coded, don’t hestiate to
-            contact me.
+    </section>
+    <!-- #### Project-Work-section #### -->
+    <section class="projects" id="portfolio">
+      <div class="popup-container">
+      </div>
+      <div class="project one">
+        <div class="snapshoot body1">
+          <img src="images/project1.png" alt="project one" class="project snapshoot" />
+        </div>
+        <div class="project-details">
+          <h1 class="project name">Tonic</h1>
+          <div class="devs">
+            <p class="dev name">RANJEET</p>
+            <p class="dev info">• Back End Dev • 2021</p>
+          </div>
+          <p class="project info">
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required.
           </p>
-          <p class="social-link-heading">LET’S CONNECT</p>
-          <ul class="social-link-icons">
-            <li>
-              <a href="https://twitter.com/thecodechaser"
-                ><img src="images/twitter.svg" alt="twitter"
-              /></a>
-            </li>
-            <li>
-              <a
-                href="https://linkedin.com/in/thecodechaser"
-                class="social-links"
-              >
-                <img src="images/linkedin.svg" alt="twitter"
-              /></a>
-            </li>
-            <li>
-              <a href="#" class="social-links"
-                ><img src="images/medium.svg" alt="twitter"
-              /></a>
-            </li>
-            <li>
-              <a href="https://github.com/thecodechaser" class="social-links"
-                ><img src="images/github.svg" alt="twitter"
-              /></a>
-            </li>
-            <li>
-              <a href="#" class="social-links"
-                ><img src="images/angellist.svg" alt="twitter"
-              /></a>
-            </li>
+          <ul class="project-langs">
+            <li class="lang name">html</li>
+            <li class="lang name">css</li>
+            <li class="lang name">javascript</li>
           </ul>
-        </div>
-      </section>
-      <!-- #### Project-Work-section #### -->
-      <section class="projects" id="portfolio">
-        <div class="popup-container">
-            </div>
-        <div class="project one">
-          <div class="snapshoot body1">
-            <img
-              src="images/project1.png"
-              alt="project one"
-              class="project snapshoot"
-            />
-          </div>
-          <div class="project-details">
-            <h1 class="project name">Tonic</h1>
-            <div class="devs">
-              <p class="dev name">RANJEET</p>
-              <p class="dev info">• Back End Dev • 2021</p>
-            </div>
-            <p class="project info">
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required.
-            </p>
-            <ul class="project-langs">
-              <li class="lang name">html</li>
-              <li class="lang name">css</li>
-              <li class="lang name">javascript</li>
-            </ul>
-            <button type="button" class="project-button one" data-id = "1">See Project</button>
-          </div>
-        </div>
-
-        <div class="project two">
-          <div class="snapshoot body2 bodyOrder">
-            <img
-              src="images/project2.png"
-              alt="project one"
-              class="project snapshoot"
-            />
-          </div>
-          <div class="project-details detailOrder">
-            <h2 class="project name">Multi-Post Stories</h2>
-            <div class="devs">
-              <p class="dev name">RANJEET</p>
-              <p class="dev info">• Back End Dev • 2021</p>
-            </div>
-            <p class="project info">
-              Copy Experimental content creation feature that allows users to
-              add to an existing story over the course.
-            </p>
-            <ul class="project-langs">
-              <li class="lang name">html</li>
-              <li class="lang name">css</li>
-              <li class="lang name">javascript</li>
-            </ul>
-            <button type="button" class="project-button two">See Project</button>
-          </div>
-        </div>
-        <div class="project three">
-          <div class="snapshoot body1">
-            <img
-              src="images/project3.png"
-              alt="project one"
-              class="project snapshoot last"
-            />
-          </div>
-          <div class="project-details">
-            <h2 class="project name">Facebook 360</h2>
-            <div class="devs">
-              <p class="dev name">RANJEET</p>
-              <p class="dev info">• Back End Dev • 2021</p>
-            </div>
-            <p class="project info">
-              Exploring the future of media in Facebook's first Virtual Reality
-              app; a place to discover and enjoy 360 photos.
-            </p>
-            <ul class="project-langs">
-              <li class="lang name">html</li>
-              <li class="lang name">css</li>
-              <li class="lang name">javascript</li>
-            </ul>
-            <button type="button" class="project-button three">See Project</button>
-          </div>
-        </div>
-      </section>
-      <!-- #### About-Myself-Section #### -->
-      <div class="about">
-        <div class="about-section" id="about">
-          <h2 class="main-heading">About<br />Myself</h2>
-          <p class="details">
-            Hello I’m a software developer! I can help you build a product ,
-            feature or website Look through some of my work and experience! If
-            you like what you see and have a project you need coded, don’t
-            hestiate to contact me.
-          </p>
-          <p class="social-link-heading">LET’S CONNECT</p>
-          <ul class="social-link-icons">
-            <li>
-              <a href="https://twitter.com/thecodechaser"
-                ><img src="images/twitter.svg" alt="twitter"
-              /></a>
-            </li>
-            <li>
-              <a
-                href="https://linkedin.com/in/thecodechaser"
-                class="social-links"
-              >
-                <img src="images/linkedin.svg" alt="twitter"
-              /></a>
-            </li>
-            <li>
-              <a href="#" class="social-links"
-                ><img src="images/medium.svg" alt="twitter"
-              /></a>
-            </li>
-            <li>
-              <a href="https://github.com/thecodechaser" class="social-links"
-                ><img src="images/github.svg" alt="twitter"
-              /></a>
-            </li>
-            <li>
-              <a href="#" class="social-links"
-                ><img src="images/angellist.svg" alt="twitter"
-              /></a>
-            </li>
-          </ul>
-          <button type="button" class="resume-button">Get my resume</button>
-        </div>
-        <div class="technology">
-          <div class="list-items">Langguages<i class="arrow right"></i></div>
-          <div class="lang-details">
-            <div class="lang-container">
-              <img src="images/js.png" alt="language name" />
-              <h3 class="lang-name-tech">JavaScript</h3>
-            </div>
-            <div class="lang-container">
-              <img src="images/html.png" alt="language name"/>
-              <h3 class="lang-name-tech">HTML</h3>
-            </div>
-            <div class="lang-container">
-              <img src="images/css.png" alt="language name"/>
-              <h3 class="lang-name-tech">CSS</h3>
-            </div>
-          </div>
-          <div class="list-items">Frameworks<i class="arrow right"></i></div>
-          <div class="list-items">Skills<i class="arrow right"></i></div>
+          <button type="button" class="project-button one" data-id="1">See Project</button>
         </div>
       </div>
-    </main>
-    <!-- #### Footer-Scetion #### -->
-    <footer>
-      <section class="contact-form" id="contact">
-        <div class="contact-form-info">
-          <h2>Contact me</h2>
-          <p class="register-info">
-            If you have an application you are interested in developing, a
-            feature that you need built or a project that needs coding. I’d love
-            to help with it
-          </p>
-        </div>
-        <form action="https://formspree.io/f/mayazvnq" method="post">
-          <input
-            type="text"
-            name="user_name"
-            required
-            maxlength="30"
-            placeholder="Name"
-          />
-          <input type="email" name="user_email" required placeholder="Email" />
-          <textarea
-            cols="30"
-            rows="10"
-            name="user_msg"
-            required
-            maxlength="500"
-            placeholder="Write your message here"
-          ></textarea>
-          <button class="contact-button" type="submit">Get In Touch</button>
-        </form>
-        <div class="bottom-line"></div>
-      </section>
-    </footer>
 
-    <script defer src="js/javascript.js"></script>
-    <script defer src="js/popUp.js"></script>
-  </body>
+      <div class="project two">
+        <div class="snapshoot body2 bodyOrder">
+          <img src="images/project2.png" alt="project one" class="project snapshoot" />
+        </div>
+        <div class="project-details detailOrder">
+          <h2 class="project name">Multi-Post Stories</h2>
+          <div class="devs">
+            <p class="dev name">RANJEET</p>
+            <p class="dev info">• Back End Dev • 2021</p>
+          </div>
+          <p class="project info">
+            Copy Experimental content creation feature that allows users to
+            add to an existing story over the course.
+          </p>
+          <ul class="project-langs">
+            <li class="lang name">html</li>
+            <li class="lang name">css</li>
+            <li class="lang name">javascript</li>
+          </ul>
+          <button type="button" class="project-button two">See Project</button>
+        </div>
+      </div>
+      <div class="project three">
+        <div class="snapshoot body1">
+          <img src="images/project3.png" alt="project one" class="project snapshoot last" />
+        </div>
+        <div class="project-details">
+          <h2 class="project name">Facebook 360</h2>
+          <div class="devs">
+            <p class="dev name">RANJEET</p>
+            <p class="dev info">• Back End Dev • 2021</p>
+          </div>
+          <p class="project info">
+            Exploring the future of media in Facebook's first Virtual Reality
+            app; a place to discover and enjoy 360 photos.
+          </p>
+          <ul class="project-langs">
+            <li class="lang name">html</li>
+            <li class="lang name">css</li>
+            <li class="lang name">javascript</li>
+          </ul>
+          <button type="button" class="project-button three">See Project</button>
+        </div>
+      </div>
+    </section>
+    <!-- #### About-Myself-Section #### -->
+    <div class="about">
+      <div class="about-section" id="about">
+        <h2 class="main-heading">About<br />Myself</h2>
+        <p class="details">
+          Hello I’m a software developer! I can help you build a product ,
+          feature or website Look through some of my work and experience! If
+          you like what you see and have a project you need coded, don’t
+          hestiate to contact me.
+        </p>
+        <p class="social-link-heading">LET’S CONNECT</p>
+        <ul class="social-link-icons">
+          <li>
+            <a href="https://twitter.com/thecodechaser"><img src="images/twitter.svg" alt="twitter" /></a>
+          </li>
+          <li>
+            <a href="https://linkedin.com/in/thecodechaser" class="social-links">
+              <img src="images/linkedin.svg" alt="twitter" /></a>
+          </li>
+          <li>
+            <a href="#" class="social-links"><img src="images/medium.svg" alt="twitter" /></a>
+          </li>
+          <li>
+            <a href="https://github.com/thecodechaser" class="social-links"><img src="images/github.svg"
+                alt="twitter" /></a>
+          </li>
+          <li>
+            <a href="#" class="social-links"><img src="images/angellist.svg" alt="twitter" /></a>
+          </li>
+        </ul>
+        <button type="button" class="resume-button">Get my resume</button>
+      </div>
+      <div class="technology">
+        <div class="list-items">Langguages<i class="arrow right"></i></div>
+        <div class="lang-details">
+          <div class="lang-container">
+            <img src="images/js.png" alt="language name" />
+            <h3 class="lang-name-tech">JavaScript</h3>
+          </div>
+          <div class="lang-container">
+            <img src="images/html.png" alt="language name" />
+            <h3 class="lang-name-tech">HTML</h3>
+          </div>
+          <div class="lang-container">
+            <img src="images/css.png" alt="language name" />
+            <h3 class="lang-name-tech">CSS</h3>
+          </div>
+        </div>
+        <div class="list-items">Frameworks<i class="arrow right"></i></div>
+        <div class="list-items">Skills<i class="arrow right"></i></div>
+      </div>
+    </div>
+  </main>
+  <!-- #### Footer-Scetion #### -->
+  <footer>
+    <section class="contact-form" id="contact">
+      <div class="contact-form-info">
+        <h2>Contact me</h2>
+        <p class="register-info">
+          If you have an application you are interested in developing, a
+          feature that you need built or a project that needs coding. I’d love
+          to help with it
+        </p>
+      </div>
+      <form action="https://formspree.io/f/mayazvnq" method="post" class="form-element">
+        <input type="text" name="user_name" required maxlength="30" placeholder="Name" />
+        <input type="email" name="user_email" required placeholder="Email" id="email" />
+        <textarea cols="30" rows="10" name="user_msg" required maxlength="500"
+          placeholder="Write your message here"></textarea>
+        <div class="validation-msg"></div>
+        <button class="contact-button" type="submit">Get In Touch</button>
+      </form>
+      <div class="bottom-line"></div>
+    </section>
+  </footer>
+  <script defer src="js/javascript.js"></script>
+  <script defer src="js/popUp.js"></script>
+  <script defer src="js/formValidation.js"></script>
+</body>
 </html>
