@@ -223,10 +223,10 @@
         </p>
       </div>
       <form action="https://formspree.io/f/mayazvnq" method="post" class="form-element">
-        <input type="text" name="user_name" required maxlength="30" placeholder="Name" />
+        <input type="text" name="user_name" required maxlength="30" placeholder="Name" id="name" />
         <input type="email" name="user_email" required placeholder="Email" id="email" />
         <textarea cols="30" rows="10" name="user_msg" required maxlength="500"
-          placeholder="Write your message here"></textarea>
+          placeholder="Write your message here" id="msg"></textarea>
         <div class="validation-msg"></div>
         <button class="contact-button" type="submit">Get In Touch</button>
       </form>
@@ -236,5 +236,6 @@
   <script defer src="js/javascript.js"></script>
   <script defer src="js/popUp.js"></script>
   <script defer src="js/formValidation.js"></script>
+  <script defer src="js/localStorage.js"></script>
 </body>
 </html>
