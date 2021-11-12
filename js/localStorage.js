@@ -17,12 +17,9 @@ function populateStorage() {
 }
 
 function getValues() {
-  name1.addEventListener('input', () =>
-    storeValues(name1.value, email1.value, message1.value),);
-  email1.addEventListener('input', () =>
-    storeValues(name1.value, email1.value, message1.value));
-  message1.addEventListener('input', () =>
-    storeValues(name1.value, email1.value, message1.value));
+  name1.addEventListener('input', () => storeValues(name1.value, email1.value, message1.value));
+  email1.addEventListener('input', () => storeValues(name1.value, email1.value, message1.value));
+  message1.addEventListener('input', () => storeValues(name1.value, email1.value, message1.value));
 }
 
 populateStorage();
