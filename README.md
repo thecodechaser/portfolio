@@ -2,7 +2,7 @@
 
 # Portfolio
 
-> Portfolio project is my personal portfolio with my details and previous project works and includes contact me form. This project is completely responsive for mobile and desktop.
+> The portfolio project is my personal portfolio website, Including my details, the previous project works, and a contact form. This website is completely responsive for mobile and desktop.
 
 ## Screenshots:
 
