@@ -128,7 +128,6 @@ a:hover {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  /* width: 320px; */
   width: 100%;
 }
 
@@ -160,7 +159,6 @@ ul {
 .projects {
   display: grid;
   padding-left: 20px;
-  width: 320px;
   grid-gap: 50px;
   margin-top: 50px;
 }
@@ -169,7 +167,7 @@ ul {
   display: flex;
   flex-direction: column;
   background: #fff;
-  margin: 44px 0;
+  margin: 44px 20px;
   box-sizing: border-box;
   border-radius: 16px;
 }
@@ -184,7 +182,6 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 295px;
   height: 220px;
   background-color: #eab676;
 }
@@ -193,18 +190,15 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 295px;
   height: 220px;
   background-color: #e28743;
 }
 
 .project.snapshoot {
-  width: 250px;
   height: 160px;
 }
 
 .project.snapshoot.last {
-  width: 250px;
   height: 210px;
 }
 
@@ -234,7 +228,6 @@ ul {
 
 .project.info {
   font-size: 16px;
-  width: 320px;
   color: #344563;
 }
 
