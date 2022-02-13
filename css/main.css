@@ -113,6 +113,7 @@ a:hover {
   background-repeat: no-repeat;
   padding-left: 20px;
   padding-top: 40px;
+  height: 80vh;
 }
 
 .main-heading {
@@ -121,6 +122,7 @@ a:hover {
   font-weight: bold;
   font-size: 40px;
   line-height: 52px;
+  margin-top: 100px;
 }
 
 .details {
@@ -160,7 +162,6 @@ ul {
   display: grid;
   padding-left: 20px;
   grid-gap: 50px;
-  margin-top: 50px;
 }
 
 .project {
@@ -345,7 +346,6 @@ button:disabled {
 /* footer-section */
 
 .contact-form {
-  width: 320px;
   margin-top: 12px;
   border-radius: 50px 0 0 0;
   display: flex;
